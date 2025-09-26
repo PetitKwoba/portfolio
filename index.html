@@ -1,244 +1,276 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Emmanuel PEtit</title>
+    <meta charset="UTF-8" />
+    <title>Emmanuel Petit - Software Developer & Digital Marketing Specialist</title>
+    <meta name="description" content="Emmanuel Petit Kwoba - Software Development student at KCA University, Technical Support & Web Development Expert with 5+ years experience in WordPress, React, and Digital Marketing." />
+    <meta name="keywords" content="Software Developer, Web Developer, Digital Marketing, KCA University, WordPress, React, Technical Support, Kenya" />
+    <meta name="author" content="Emmanuel Petit Kwoba" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#192734" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="default.css">
-	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" href="default.css" />
+    <link id="theme-style" rel="stylesheet" href="" />
 </head>
 <body>
+<header class="site-header">
+	<nav class="top-nav" aria-label="Main Navigation">
+		<a class="brand" href="index.html">EP<span>.</span></a>
+		<button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</button>
+		<ul class="nav-links desktop-only">
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<div id="mobile-menu" class="mobile-menu" hidden>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+</header>
 
-	<section class="s1">
-		<div class="main-container">
-			<div class="greeting-wrapper">
-				<h1>Hi, I'm Emmauel Petit</h1>
+	<section class="hero" id="home">
+		<div class="hero-inner">
+			<div class="hero-content">
+				<h1 class="hero-title">Hi, I'm <span>Emmanuel Petit</span></h1>
+				<p class="hero-tagline">Software Development student (KCA University) & Multi-Disciplinary Technologist delivering <strong>scalable web solutions</strong>, <strong>technical support excellence</strong>, and <strong>growth-focused digital strategies</strong>.</p>
+				<div class="hero-cta">
+					<a href="#projects" class="btn primary">View Projects</a>
+					<a href="emmnaueCv.pdf" target="_blank" class="btn outline">Download CV</a>
+				</div>
+				<div class="theme-switcher">
+					<span class="switcher-label">Theme:</span>
+					<div class="theme-options-inline">
+						<div data-mode="light" class="theme-dot" title="Light"></div>
+						<div data-mode="blue" class="theme-dot" title="Blue"></div>
+						<div data-mode="green" class="theme-dot" title="Green"></div>
+						<div data-mode="purple" class="theme-dot" title="Purple"></div>
+					</div>
+				</div>
 			</div>
+			<div class="hero-media">
+				<img src="images/Emmanuel.jpg" alt="Portrait of Emmanuel Petit" class="hero-avatar" />
+			</div>
+		</div>
+	</section>
 
+	<main>
+	<section class="section" id="about">
+		<div class="main-container narrow">
+			<h2 class="section-title gradient">About Me</h2>
+			<div class="about-grid">
+				<div>
+					<p>I am a passionate Software Development student at KCA University with over 5 years of professional experience in technical support and web development. My academic pursuits in software development complement my extensive practical experience, positioning me at the forefront of modern technology solutions.</p>
 
-			<div class="intro-wrapper">
-				<div class="nav-wrapper">
+					<p><strong>Professional Experience:</strong> I have managed corporate websites, developed user-centric applications, and implemented data-driven digital marketing strategies. Core stack: HTML5, CSS3, JavaScript, React, Node.js, PHP; CMS & Platforms: WordPress, Shopify, Wix, Webflow; Automation: GoHighLevel. <span id="gh-tech-wrapper" class="inline-tech"><strong>GitHub:</strong> <span id="github-tech-list">Loading…</span></span></p>
+					<p><strong>Marketing & Growth:</strong> I design multi-channel campaigns (Google Ads, Facebook, Reddit) and SEO strategies that improve visibility and drive measurable acquisition.</p>
+					<p><strong>Philosophy:</strong> Precision, performance, and purposeful innovation. I love solving problems that sit between technology, user experience, and business value.</p>
+					<p class="muted"><em>Outside code: community impact, transport innovation concepts, and meaningful digital storytelling.</em></p>
+				</div>
+				<div class="about-aside">
+					<div class="stats-grid">
+						<div class="stat-box"><span class="stat-val">5+ yrs</span><span class="stat-label">Experience</span></div>
+						<div class="stat-box"><span class="stat-val">30+ </span><span class="stat-label">Projects</span></div>
+						<div class="stat-box"><span class="stat-val">10+ </span><span class="stat-label">Platforms</span></div>
+						<div class="stat-box"><span class="stat-val">∞</span><span class="stat-label">Curiosity</span></div>
+					</div>
+					<a href="emmnaueCv.pdf" target="_blank" class="btn block mt">📄 Download CV</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-					<!-- Link around dots-wrapper  -->
-					<a href="index.html">
-						<div class="dots-wrapper">
-							<div id="dot-1" class="browser-dot"></div>
-							<div id="dot-2" class="browser-dot"></div>
-							<div id="dot-3" class="browser-dot"></div>
-						</div>
-					</a>
-					
+	<section class="section alt" id="skills" aria-labelledby="skills-heading">
+		<div class="main-container">
+			<h2 id="skills-heading" class="section-title center">Core Competencies</h2>
+			<p class="section-sub center">Blending engineering discipline with digital growth strategy</p>
+			<div class="competencies-grid">
+				<div class="competency-card gradient-dev">
+					<h3 class="comp-title">💻 Web Engineering</h3>
+					<ul class="tag-list">
+						<li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React.js</li><li>Node.js</li><li>PHP</li>
+					</ul>
+					<p class="comp-desc">Full-stack implementation with a focus on performance, accessibility, and maintainable component design.</p>
+				</div>
+				<div class="competency-card gradient-infra">
+					<h3 class="comp-title">🌐 Infrastructure</h3>
+					<ul class="tag-list">
+						<li>cPanel</li><li>SSL</li><li>DNS</li><li>Email Systems</li><li>Security Hardening</li>
+					</ul>
+					<p class="comp-desc">Reliable deployment foundations: secure provisioning, certificate automation, and uptime-aware hosting practices.</p>
+				</div>
+				<div class="competency-card gradient-marketing">
+					<h3 class="comp-title">📈 Growth & Marketing</h3>
+					<ul class="tag-list">
+						<li>SEO</li><li>Content Strategy</li><li>Google Ads</li><li>Facebook Ads</li><li>Reddit Ads</li><li>Analytics</li>
+					</ul>
+					<p class="comp-desc">Data-led acquisition frameworks that align messaging, funnel optimization, and search performance.</p>
+				</div>
+				<div class="competency-card gradient-business">
+					<h3 class="comp-title">🛠️ Business Enablement</h3>
+					<ul class="tag-list">
+						<li>MS Office (Advanced)</li><li>Canva</li><li>Support Ops</li><li>Ticketing</li><li>Process Docs</li>
+					</ul>
+					<p class="comp-desc">Operational uplift through documentation, structured support flows, and practical tooling.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-					<ul id="navigation">
-						<li><a href="index.html#contact">Contact</a></li>
-
+	<section class="section" id="network">
+		<div class="main-container">
+			<h2 class="section-title center">Professional Network</h2>
+			<div class="contacts-panel">
+				<div class="contact-block">
+					<ul class="contact-list">
+						<li>🔗 <a target="_blank" href="https://www.linkedin.com/in/emmanuel-petit-kwoba/">LinkedIn</a></li>
+						<li>🐙 <a target="_blank" href="https://github.com/PetitKwoba/">GitHub</a></li>
+						<li>🐦 <a target="_blank" href="https://twitter.com/Ptech_Kenya">Twitter</a></li>
+						<li>📱 <a target="_blank" href="https://www.facebook.com/petit.kwoba/">Facebook</a></li>
 					</ul>
 				</div>
-
-				<div class="left-column">
-					<img id="profile_pic" src="images/Emmanuel.jpg">
-					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
-
-					<div id="theme-options-wrapper">
-						<div data-mode="light" id="light-mode" class="theme-dot"></div>
-						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-						<div data-mode="green" id="green-mode" class="theme-dot"></div>
-						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-					</div>
-
-					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
-				</div>
-
-				<div class="right-column">
-
-					<div id="preview-shadow">
-						<div id="preview">
-							<div id="corner-tl" class="corner"></div>
-							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p>Hi, I am Emmanuel Petit Kwoba, I offer Technical Support & Web Development Expert | Digital Marketing Specialist | Empowering Businesses with Seamless IT Solutions and Online Growth Strategies</p>
-							<div id="corner-br" class="corner"></div>
-							<div id="corner-bl" class="corner"></div>
-						</div>
-					</div>
+				<div class="contact-meta">
+					<p><strong>📧 Email:</strong> <a href="mailto:kwobapetit@gmail.com">kwobapetit@gmail.com</a></p>
+					<p><strong>📍 Location:</strong> Nairobi, Kenya</p>
+					<p><strong>🎓 Institution:</strong> KCA University</p>
+					<p><strong>💼 Status:</strong> Open to collaboration</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="s2">
+	<section class="section alt" id="projects">
 		<div class="main-container">
-
-			<div class="about-wrapper">
-				<div class="about-me">
-					<h4>More about me</h4>
-
-					<p>I am a versatile Technical Support and Web Development Expert with over 5 years of experience in helping businesses harness the power of technology and the web to achieve their goals.
-
-With a strong foundation in web development, I have managed corporate websites, developed user-friendly applications, and optimized online visibility through effective SEO and digital marketing strategies. My expertise extends to platforms like WordPress, Shopify, and Wix, and languages like HTML, CSS, and Javascript (React and Node) enabling me to deliver customized solutions tailored to diverse business needs.
-
-In addition to my technical skills, I excel in crafting and executing marketing campaigns across platforms like Google Ads, Facebook, and Reddit. I’m passionate about creating impactful strategies that drive engagement and deliver measurable results.
-
-I thrive on solving complex problems, whether it’s building efficient systems, enhancing online presence, or designing scalable solutions for businesses and individuals. My vision is to leverage technology and creativity to empower others and make a meaningful difference.
-
-Outside of work, I enjoy engaging in philanthropic work and exploring new ideas, including innovative projects like developing an app to revolutionize public transport or creating engaging digital content that inspires and motivates.
-
-Let’s connect to exchange ideas, collaborate, or explore opportunities to drive digital transformation together!.</p>
-
-
-					<hr>
-
-					<h4>TOP EXPERTISE</h4>
-
-					<p><b>Web development data visualization <a target="_blank" href="emmnaueCv.pdf">Download Circulum Vitae</a></p>
-
-					<div id="skills">
-						<ol>
-							<li>Domain  and hosting management from Cpanel management, domain registration, SSL installation, management, email configuration etc.  </li>
-							<li>Expert Web development and management: WordPress, Shopify, Wix, GoHighLevel, Webflow, and React</li>
-							<li>Advanced skills in Microsoft</li>
-							<li>Canva</li>
-							<li>Content writing and management </li>
-							<li>Technical Support</li>
-							<li>Ticket tracking and management </li>
-							<li>Ad management </li>
-							<li>Scial Media management</li>
-						</ol>
-
-					</div>
-
-				</div>
-
-				
-				<div class="social-links">
-					
-					<h3>Let's Connect</h3>
-
-					<a target="_blank" href="https://www.linkedin.com/in/emmanuel-petit-kwoba/">LinkedIn: Emmanuel Petit</a>
-					<br>
-					<a target="_blank" href="https://twitter.com/Ptech_Kenya">Twitter : @Ptech_Kenya</a>
-					<br>
-					<a target="_blank" href="https://www.facebook.com/petit.kwoba/">Facebook : Emmanuel P. Kwoba</a>
-					<br>
-					<a target="_blank" href="https://github.com/PetitKwoba/"> Github : Petit Emmanuel</a>
-					<p>Email: kwobapetit@gmail.com</p>
-
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="s1">
-		<div class="main-container">
-			<h3 style="text-align: center;">Some of my past projects</h3>
-
-			<div class="post-wrapper">
-
+			<h2 class="section-title center">Featured Projects</h2>
+			<p class="section-sub center">Selected work spanning web engineering, infrastructure, and growth enablement</p>
+			<div class="projects-grid">
 				<div>
-					<div class="post">
+					<div class="project-card">
 						<!--<img class="thumbnail" src="images/stawi.PNG">-->
-						<div class="post-preview">
-							<h6 class="post-title">stawifood.co.ke</h6>
-							<p class="post-intro">Designed, built, and developed a website for Stawi Foods and Fruits Limited using React </p>
-							<a href="https://www.stawifood.co.ke/" target="_blank">View Project</a>
+						<div class="project-body">
+							<h3 class="project-title">NDA Projects</h3>
+							<p class="project-desc">Multiple high-impact engagements under non-disclosure agreements focusing on platform stabilization, conversion optimization, and secure infrastructure rollout.</p>
 						</div>
 					</div>
 				</div>
 
-				
-
 				<div>
-					<div class="post">
+					<div class="project-card">
 						<!--<img class="thumbnail" src="images/billionsuccs.png">-->
-						<div class="post-preview">
-							<h6 class="post-title">Billion Success</h6>
-							<p class="post-intro">I Worked with developers and designers from billionhosting.com to develop the site using WordPress and Elementor </p>
-							<a href="https://billionsuccess.com/" target="_blank">View Project</a>
+						<div class="project-body">
+							<h3 class="project-title">Billion Success</h3>
+							<p class="project-meta">WordPress • Elementor • Custom CSS</p>
+							<p class="project-desc">Collaborative build emphasizing responsive layout integrity and modular content structure for marketing agility.</p>
+							<a href="https://billionsuccess.com/" target="_blank" class="project-link">Visit Site →</a>
 						</div>
 					</div>
 				</div>
+
 				<div>
-					<div class="post">
+					<div class="project-card">
 						<!--<img class="thumbnail" src="images/ISpeakFoxye.png">-->
-						<div class="post-preview">
-							<h6 class="post-title">ISpeakFoxye.com</h6>
-							<p class="post-intro">I worked with developers from billionhosting.com to develop the site using WordPress and Elementor and did SEO</p>
-							<a href="https://ispeakfoxye.com/" target="_blank">View Project</a>
+						<div class="project-body">
+							<h3 class="project-title">ISpeakFoxye</h3>
+							<p class="project-meta">WordPress • Elementor • SEO</p>
+							<p class="project-desc">Search-optimized platform with structured semantic markup and improved content indexing velocity.</p>
+							<a href="https://ispeakfoxye.com/" target="_blank" class="project-link">Visit Site →</a>
 						</div>
 					</div>
 				</div>
 
 				<div>
-					<div class="post">
+					<div class="project-card">
 						<!--<img class="thumbnail" src="images/wezesha.png">-->
-						<div class="post-preview">
-							<h6 class="post-title">Market DiGipreneur</h6>
-							<p class="post-intro">I registered domain, Hosting Services, set up email, and designed and developed  the website using WordPress, specifically Elementor, did SEO, and published the website</p>
-							<a href="https://imarketdigipreneur.com/" target="_blank">View Project</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="post">
-						<!--<img class="thumbnail" src="images/wezesha.png">-->
-						<div class="post-preview">
-							<h6 class="post-title">wezesha</h6>
-							<p class="post-intro">I designed and developed  the website using WordPress, specifically Elementor, did SEO, and published the website</p>
-							<a href="https://wezeshakenya.com/" target="_blank">View Project</a>
+						<div class="project-body">
+							<h3 class="project-title">Market DiGipreneur</h3>
+							<p class="project-meta">Infra Setup • WordPress • SEO</p>
+							<p class="project-desc">Full lifecycle delivery including DNS provisioning, secure email configuration, content architecture, and organic visibility foundations.</p>
+							<a href="https://imarketdigipreneur.com/" target="_blank" class="project-link">Visit Site →</a>
 						</div>
 					</div>
 				</div>
 
 				<div>
-					<div class="post">
+					<div class="project-card">
 						<!--<img class="thumbnail" src="images/wezesha.png">-->
-						<div class="post-preview">
-							<h6 class="post-title">EducaterHer Kenya</h6>
-							<p class="post-intro">I registered domain, hosting services and designed and developed the website using WordPress, specifically Elementor, did SEO, and published the website</p>
-							<a href="https://educateherskenya.net/" target="_blank">View Project</a>
+						<div class="project-body">
+							<h3 class="project-title">Wezesha Kenya</h3>
+							<p class="project-meta">WordPress • Community • SEO</p>
+							<p class="project-desc">Community-forward site with accessible design patterns and structured navigation for engagement.</p>
+							<a href="https://wezeshakenya.com/" target="_blank" class="project-link">Visit Site →</a>
 						</div>
 					</div>
 				</div>
 
-
+				<div>
+					<div class="project-card">
+						<!--<img class="thumbnail" src="images/wezesha.png">-->
+						<div class="project-body">
+							<h3 class="project-title">EducateHer Kenya</h3>
+							<p class="project-meta">Full Stack • WordPress • Education</p>
+							<p class="project-desc">Platform build from infrastructure provisioning to frontend delivery supporting educational empowerment goals.</p>
+							<a href="https://educateherskenya.net/" target="_blank" class="project-link">Visit Site →</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="s2">
-		<div class="main-container">
-			<a href=""></a>
-			<h3 style="text-align: center;" id="myId">Get In Touch</h3>
-
+	<section class="section contact-section" id="contact">
+		<div class="main-container narrow">
+			<h2 class="section-title center">Let's Collaborate</h2>
+			<p class="section-sub center">Projects, partnerships, or product questions—I'm happy to talk.</p>
 			<form id="contact-form" netlify>
-				<a name="contact"></a>
-
-				<label>Name</label>
-				<input class="input-field" type="text" name="name" required>
-
-				<label>Subject</label>
-				<input class="input-field" type="text" name="subject" required>
-
-				<label>Email</label>
-				<input class="input-field" type="text" name="email" required>
-
-				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea required>
-
-				<input id="submit-btn" type="submit" value="Send">
+				<div class="form-grid">
+					<div class="form-field">
+						<label for="name">Name</label>
+						<input id="name" class="input-field" type="text" name="name" required />
+					</div>
+					<div class="form-field">
+						<label for="subject">Subject</label>
+						<input id="subject" class="input-field" type="text" name="subject" required />
+					</div>
+					<div class="form-field full">
+						<label for="email">Email</label>
+						<input id="email" class="input-field" type="email" name="email" required />
+					</div>
+					<div class="form-field full">
+						<label for="message">Message</label>
+						<textarea id="message" class="input-field" name="message" rows="6" required></textarea>
+					</div>
+				</div>
+				<button id="submit-btn" type="submit" class="btn primary full">Send Message</button>
 			</form>
 		</div>
-	</section> 
+	</section>
+	</main>
 
+	<footer class="site-footer">
+		<div class="main-container footer-inner">
+			<p>© <span id="year"></span> Emmanuel Petit Kwoba. Crafted with focus & intent.</p>
+			<p class="small">Optimized for clarity, performance, and progressive enhancement.</p>
+		</div>
+	</footer>
 
-
-	<script type="text/javascript" src="script.js"></script>
+	<script src="script.js"></script>
+	<script>
+		// dynamic year
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
 </body>
 </html>
